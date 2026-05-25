@@ -26,7 +26,7 @@ export default function FloatManager() {
             className="glass"
             style={{
               position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)',
-              width: activeFloat === 'map-poi' ? 360 : 400, maxHeight: '80vh',
+              width: activeFloat === 'map-poi' ? 360 : 400, maxHeight: '80%',
               zIndex: 45, overflow: 'auto', borderRadius: 8,
               boxShadow: '0 0 40px rgba(0,0,0,0.6)', padding: 0
             }}

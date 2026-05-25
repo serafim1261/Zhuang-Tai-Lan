@@ -20,7 +20,7 @@ export default function SanCrisisEffect() {
   if (level <= 0) return null;
 
   return (
-    <div style={{ position: 'fixed', inset: 0, zIndex: 90, pointerEvents: 'none', overflow: 'hidden' }}>
+    <div style={{ position: 'absolute', inset: 0, zIndex: 90, pointerEvents: 'none', overflow: 'hidden' }}>
       {/* Purple edge vignette - always present */}
       {level > 0.2 && (
         <div style={{

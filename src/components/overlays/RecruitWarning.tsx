@@ -30,7 +30,7 @@ export default function RecruitWarning() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
       style={{
-        position: 'fixed', inset: 0, zIndex: 100,
+        position: 'absolute', inset: 0, zIndex: 100,
         background: 'rgba(4,4,10,0.94)',
         display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
         overflow: 'hidden'

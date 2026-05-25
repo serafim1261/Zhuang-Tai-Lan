@@ -230,7 +230,7 @@ function GlobalMap({ nodes, zoom, setZoom, onNodeClick }: { nodes: MapNode[]; zo
       {/* Ambiguous click picker */}
       {ambiguous && (
         <div style={{
-          position: 'fixed', left: ambiguous.cx + 10, top: ambiguous.cy - 10,
+          position: 'absolute', left: ambiguous.cx + 10, top: ambiguous.cy - 10,
           background: 'rgba(10,10,24,0.95)', backdropFilter: 'blur(12px)',
           border: '1px solid rgba(255,255,255,0.1)', borderRadius: 6,
           padding: 8, zIndex: 100, minWidth: 160, maxHeight: 240, overflow: 'auto',
@@ -499,7 +499,7 @@ function RegionMap({ node, onSubNodeClick }: { node: MapNode; onSubNodeClick: (s
         {/* Ambiguous click picker */}
         {ambiguous && (
           <div style={{
-            position: 'fixed', left: ambiguous.cx + 10, top: ambiguous.cy - 10,
+            position: 'absolute', left: ambiguous.cx + 10, top: ambiguous.cy - 10,
             background: 'rgba(10,10,24,0.95)', backdropFilter: 'blur(12px)',
             border: '1px solid rgba(255,255,255,0.1)', borderRadius: 6,
             padding: 8, zIndex: 100, minWidth: 160, maxHeight: 240, overflow: 'auto',

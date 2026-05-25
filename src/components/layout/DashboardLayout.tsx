@@ -33,7 +33,7 @@ export default function DashboardLayout() {
   const active = state.ui.activePanel;
 
   return (
-    <div style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', background: '#080810', overflow: 'hidden', position: 'relative' }}>
+    <div className="dashboard-root">
       {/* Top nav bar */}
       <nav style={{
         flexShrink: 0, display: 'flex', alignItems: 'center', gap: 0,
