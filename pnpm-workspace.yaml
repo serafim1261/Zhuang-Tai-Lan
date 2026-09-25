@@ -1,2 +1,8 @@
 allowBuilds:
+<<<<<<< HEAD
   esbuild: true
+=======
+  '@parcel/watcher': true
+  unrs-resolver: true
+  vue-demi: true
+>>>>>>> f447e54f4effc7980891d89ab7e9b3c9aa02737e
