@@ -29,7 +29,7 @@
     "@eslint/js": "^9.39.5",
     "@tailwindcss/vite": "^4.3.5",
     "@types/lodash": "^4.17.27",
-    "@types/react": "^18.3.31",
+    "@types/react": "^18.3.32",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.7.0",
